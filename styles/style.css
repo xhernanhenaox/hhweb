@@ -468,6 +468,9 @@ body {
             gap: 20px;
         }
     
+        input, textarea, button {
+            width: 100%;
+        }
      
         .posts {
         flex-direction: column;
