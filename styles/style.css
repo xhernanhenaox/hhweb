@@ -63,7 +63,7 @@ body {
 }
 
 .presentacion {
-    background-image: url("/assets/fondohome.png");
+    background-image: url(/assets/fondohome.png)
     background-size: cover;
     width: auto;
      display: flex; 
@@ -269,7 +269,7 @@ body {
     padding: 20px 50px;
     gap: 20px;
     color: var(--color-secundario);
-    background-image: url("/assets/fondoservicios.jpg");
+    background-image: url(/assets/fondoservicios.jpg)
     }
 
 .diseño {
@@ -322,7 +322,7 @@ body {
         padding: 20px 50px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.507);
         border-radius: 30px;
-        gap: 20px; /* Ajustado para consistencia */
+        gap: 20px;
         background-color: rgb(255, 255, 255);
         color: var(--color-primario);
         height: auto;
@@ -454,8 +454,12 @@ body {
             
         }
     
-        .presentacion_experiencia, .presentacion_introduccion_servicios, .presentacion_asesoria, .presentacion_programas, .presentacion_ademas, .presentacion_disenoypublicidad, .presentacion_proyectos, .presentacion_blog, {
+        .presentacion_experiencia, .presentacion_introduccion_servicios, .presentacion_ademas, .presentacion_disenoypublicidad, .presentacion_proyectos, .presentacion_blog, {
             padding: 10%;
+            flex-direction: column-reverse;
+        }
+
+        .presentacion_asesoria, .presentacion_programas {
             flex-direction: column-reverse;
         }
     
