@@ -484,12 +484,11 @@ p {
             width: 100%;
         }
      
-        .posts {
-        flex-direction: column;
-        align-items: center;
-                
-            
+        .post {
+            grid-template-columns: 1fr; 
+            text-align: center; 
         }
+    
     }
     
    
