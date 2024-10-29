@@ -206,12 +206,7 @@ body {
     }
 
   
-    .presentacion_experiencia{
-        padding: 20px 50px 20px 50px;
-        background-color: var(--color-secundario);
-        color: var(--color-primario);
-        text-align: justify;
-    }
+ 
 
     /* ESTILOS SERVICIOS ---------------------------------------------------------------------------*/
 
@@ -466,7 +461,7 @@ p {
             
         }
     
-        .presentacion_experiencia, .presentacion_introduccion_servicios, .presentacion_ademas, .presentacion_disenoypublicidad, .presentacion_proyectos, .presentacion_blog, {
+        .presentacion_introduccion_servicios, .presentacion_ademas, .presentacion_disenoypublicidad, .presentacion_proyectos, .presentacion_blog, {
             padding: 10%;
             flex-direction: column-reverse;
         }
