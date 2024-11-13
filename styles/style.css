@@ -296,6 +296,62 @@ body {
     
     }
 
+    /* ESTILOS PORTAFOLIO ---------------------------------------------------------------------------*/
+
+.presentacion_portafolio {
+    padding: 20px 50px;
+    gap: 20px;
+    background: linear-gradient(180deg, #424266, #283c63, #0f2d53, #000002);
+    color: var(--color-terciario);
+    text-align: center;
+    gap: 50px;
+    }
+
+.presentacion_portafolio_contenido {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 50px;
+    padding: 20px 50px;
+    text-align: initial;
+}
+
+.juegoSecreto, .encriptador, .paginaDeViajes, .aluraPlay, .playerhh, .pomodoro {
+    padding: 20px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.507);
+    border-radius: 30px;
+    gap: 20px; 
+    background-color: rgb(255, 255, 255);
+    color: var(--color-primario);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.boton-dark {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #051a33;
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px; 
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer; 
+}
+
+/* Efecto al pasar el cursor */
+.boton-dark:hover {
+    background-color: #283c63; 
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
 /* ESTILOS PROYECTOS ---------------------------------------------------------------------------*/
 
     .presentacion_proyectos {
