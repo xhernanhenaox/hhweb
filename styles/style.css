@@ -312,7 +312,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     gap: 50px;
-    padding: 20px 50px;
+    padding: 20px auto;
     text-align: initial;
 }
 
