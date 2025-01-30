@@ -348,7 +348,7 @@ body {
     display: inline-block;
     padding: 12px 24px;
     margin-top: 20px;
-    background-color: #FF6347;
+    background-color: #e03517;
     color: #ffffff; 
     text-decoration: none;
     font-weight: bold;
@@ -361,8 +361,13 @@ body {
 .boton-dark:hover {
     background-color: #283c63; 
     transform: translateY(-3px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+.boton-tomatoe:hover{
+    background-color: #FF6347; 
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); }
 
 
 /* ESTILOS PROYECTOS ---------------------------------------------------------------------------*/
