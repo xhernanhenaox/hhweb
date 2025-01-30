@@ -344,6 +344,19 @@ body {
     cursor: pointer; 
 }
 
+.boton-tomatoe {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #FF6347;
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px; 
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer; 
+}
+
 /* Efecto al pasar el cursor */
 .boton-dark:hover {
     background-color: #283c63; 
