@@ -535,7 +535,7 @@ p {
             
         }
     
-        .presentacion_introduccion_servicios, .presentacion_ademas, .presentacion_disenoypublicidad, .presentacion_proyectos, .presentacion_blog, {
+        .presentacion_introduccion_servicios, .presentacion_disenoypublicidad, .presentacion_proyectos, .presentacion_blog, {
             padding: 10%;
             flex-direction: column-reverse;
         }
