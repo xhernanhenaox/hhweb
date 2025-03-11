@@ -297,26 +297,19 @@ body {
     }
 
     .boton_whatsapp {
-        display: inline-block;
-        background-color: #25D366;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 12px 20px;
-        border-radius: 25px;
-        text-decoration: none;
-        text-align: center;
-        transition: background-color 0.3s ease, transform 0.2s ease;
+        position: fixed; 
+        bottom: 20px;
+        right: 20px; 
+        z-index: 1000;
     }
     
-    .boton_whatsapp:hover {
-        background-color: #1EBE5D;
-        transform: scale(1.05);
+    .boton_contacto {
+        position: relative; 
+        display: block; 
+        margin: 20px auto; 
+        text-align: center; 
     }
     
-    .boton_whatsapp:active {
-        transform: scale(0.95);
-    }
     
 
     /* ESTILOS PORTAFOLIO ---------------------------------------------------------------------------*/
