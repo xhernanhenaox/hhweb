@@ -296,8 +296,8 @@ body {
     
     }
 
-    .boton_whatsapp {
-        position: fixed; 
+    .boton_calltoaction {
+        position: relative; 
         bottom: 20px;
         right: 20px; 
         z-index: 1000;
