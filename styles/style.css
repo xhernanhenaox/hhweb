@@ -309,11 +309,12 @@ body {
         cursor: pointer;
     }
     
-    .boton_contacto {
+    .botonDeAccion {
         position: relative; 
         display: block; 
         margin: 20px auto; 
-        text-align: center; 
+        text-align: center;
+        gap: 20px; 
     }
     
     .listadeservicios{
