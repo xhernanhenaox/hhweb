@@ -325,8 +325,8 @@ body {
   gap: 30px;
   padding: 60px 20px;
   justify-items: center;
-
-  background-image: url("../assets/iconosServicios/fondoservicios.png"); 
+  flex-direction: row;
+  background-color: #f5f5f5;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -336,7 +336,7 @@ body {
 .tarjeta_servicio {
   width: 800px;
   height: 380px;
-  background-color: #f5f5f5;
+  background-image: url("../assets/iconosServicios/fondoservicios.png"); 
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -355,7 +355,7 @@ body {
 
 .tarjeta_servicio p {
   font-size: 18px;
-  color: #ffffff;
+  color: var(--color-primario) ;
 }
 
 /* Responsive: 1 columna en mobile */
