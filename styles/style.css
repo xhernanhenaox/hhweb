@@ -334,9 +334,11 @@ body {
 }
 
 .tarjeta_servicio {
-  width: 800px;
-  height: 380px;
+  width: 400px;
+  height: 190px;
   background-image: url("../assets/iconosServicios/fondoservicios.png"); 
+  background-repeat: no-repeat;
+  background-size: auto;
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -365,7 +367,7 @@ body {
   }
 
   .tarjeta_servicio {
-    width: 90%;
+    width: 80%;
   }
 }
 
