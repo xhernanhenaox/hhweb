@@ -326,7 +326,7 @@ body {
   padding: 60px 20px;
   justify-items: center;
 
-  background-image: url("assets/iconosServicios/fondoservicios"); /* Cambia por la ruta real */
+  background-image: url("../assets/iconosServicios/fondoservicios.png"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
